@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<mvc:resources mapping="/resources/**" location="/resources/" />
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Eiffel Intelligence Subscription Handling</title>
+
+
+</head>
+
+<body class="nav-link">
+	<div class="hidden" id="frontendServiceUrl" style="display: none"
+		th:text="${frontendServiceUrl}"></div>
+	<div class="hidden" id="backendServerUrl" style="display: none"
+		th:text="${backendServerUrl}"></div>
+		
+	<div class="col-12" id="eiPageFrame"></div>
+
+	<script type="text/javascript" src="js/eiInfo.js"></script>
+	
+</body>
+</html>
